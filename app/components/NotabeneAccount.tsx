@@ -1,0 +1,164 @@
+"use client";
+
+import { motion } from "framer-motion";
+import SectionHeader from "./SectionHeader";
+
+const containerVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.12, delayChildren: 0.05 } },
+};
+const reveal = {
+  hidden: { opacity: 0, y: 20 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+export default function NotabeneAccount() {
+  return (
+    <section
+      id="account"
+      className="relative px-5 sm:px-6 md:px-10 py-20 sm:py-28 md:py-44 border-t border-ink/10"
+    >
+      <div className="max-w-7xl mx-auto">
+        <SectionHeader
+          number="02"
+          kicker="The Account"
+          title="The Notabene Account"
+        />
+
+        {/* Lead paragraph + sidebar facts */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: "-80px" }}
+            variants={containerVariants}
+            className="lg:col-span-7 space-y-6"
+          >
+            <motion.p
+              variants={reveal}
+              className="text-xl md:text-[1.4rem] leading-[1.55] text-ink/85"
+            >
+              Notabene is a roughly 119-person, fully distributed RegTech
+              building the compliance and payments network for crypto.
+              Travel Rule plus stablecoin payments, used by 280+
+              regulated businesses like Luno, Bitso, and Crypto.com,
+              across a network that crossed $2 trillion in volume in
+              January 2026. They are Series B-backed by DRW VC. Over the
+              past year they stood up an operations and revenue-operations
+              layer under their COO. A first RevOps hire, a
+              business-operations lead, a Chief of Staff to the COO. A new
+              payments product and a tightening compliance picture keep
+              adding workflows, while the engineers stay on the core
+              transaction network.
+            </motion.p>
+          </motion.div>
+
+          {/* Side facts */}
+          <motion.aside
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.9, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            className="lg:col-span-4 lg:col-start-9 lg:border-l lg:border-ink/15 lg:pl-8 space-y-8"
+          >
+            <FactRow label="Stage" value="Series B. $14.5M, DRW VC (Nov 2024)" />
+            <FactRow label="HQ" value="New York, NY. Distributed, 13+ countries" />
+            <FactRow label="CEO" value="Pelle Braendgaard (Co-Founder)" />
+            <FactRow label="Scale" value="~119 employees, fully distributed" />
+            <FactRow label="Customers" value="280+ regulated firms (Luno, Bitso)" />
+            <FactRow label="Network" value="$2T+ processed, crossed Jan 2026" />
+          </motion.aside>
+        </div>
+
+        {/* The Notabene ops-scaling moment - full visual callout */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-24 md:mt-36 relative"
+        >
+          <div className="bg-forest text-ink rounded-sm overflow-hidden relative">
+            {/* Decorative date stamp - inline on mobile, absolute on md+ */}
+            <div className="md:absolute md:top-10 md:right-10 md:text-right pt-6 md:pt-0 px-6 md:px-0 flex items-baseline md:items-end gap-3 md:gap-0 md:flex-col">
+              <div className="text-[10px] font-mono uppercase tracking-[0.22em] sm:tracking-[0.25em] text-ink/50 md:mb-1 whitespace-nowrap">
+                Notabene Flow
+              </div>
+              <div className="font-pixel font-bold text-2xl sm:text-3xl md:text-4xl text-ink tabular tracking-[0.04em]">
+                09 / 2025
+              </div>
+            </div>
+
+            <div className="px-6 sm:px-8 md:px-16 py-10 sm:py-14 md:py-24 max-w-4xl">
+              <div className="text-[10px] sm:text-xs font-mono uppercase tracking-[0.22em] text-accent-warm mb-6 sm:mb-8">
+                The story right now
+              </div>
+              <p className="text-xl md:text-2xl text-ink/90 leading-[1.5] max-w-3xl">
+                Over the past year Notabene stood up an operations layer
+                under COO Alice Nawfal. A search for its first dedicated
+                RevOps hire, a Chief of Staff to the COO, a
+                business-operations lead. Two things matter for an
+                outbound rep. First, that new ops function inherits the
+                manual work of connecting a sprawling SaaS stack across a
+                fully distributed team. Second, Flow, their stablecoin
+                payments line live since September 2025, and a tightening
+                Travel Rule compliance picture keep adding onboarding and
+                compliance-data work, while the engineers stay on the core
+                network. Both are automation problems, not engineering
+                problems.
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Closing block */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-24 md:mt-36 grid grid-cols-1 lg:grid-cols-12 gap-10"
+        >
+          <div className="lg:col-span-2">
+            <div className="text-xs font-mono uppercase tracking-[0.22em] text-accent">
+              The setup
+            </div>
+          </div>
+          <div className="lg:col-span-10">
+            <p className="text-xl md:text-2xl leading-[1.55] text-ink/90 max-w-4xl">
+              Notabene's whole product is compliance and auditability.
+              They sell regulated crypto firms a system a regulator can
+              trust. That same standard applies inward. They cannot run
+              ungoverned automations their own compliance team cannot
+              see. Their growth means more headcount, more tools, more
+              handoffs between them. The engineers are heads-down on the
+              transaction network, not internal plumbing. My read: the ops
+              function they just built should not spend its quarters
+              wiring tools together by hand. Zapier connects the stack
+              without pulling an
+              engineer, and the Enterprise tier keeps every automation
+              behind SSO, admin approval, and an audit log. That is the
+              only version of automation a compliance-first company can
+              actually run.
+            </p>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+
+function FactRow({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex flex-col gap-1">
+      <div className="text-[10px] font-mono uppercase tracking-[0.22em] text-ink/50">
+        {label}
+      </div>
+      <div className="text-base text-ink">{value}</div>
+    </div>
+  );
+}
