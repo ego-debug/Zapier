@@ -37,15 +37,13 @@ const BUYER_BLOCKS: { label: string; body: React.ReactNode }[] = [
     label: "Why Notabene",
     body: (
       <>
-        Over the past year Notabene stood up a revenue-operations and
-        business-operations layer under COO Alice Nawfal, its first
-        RevOps hire included. That only happens when the company is
-        scaling faster than its processes. The Flow payments launch, a
-        network that just crossed $2 trillion in volume, and a tightening
-        Travel Rule compliance picture keep adding workflows, and the
-        engineers are reserved for the core network. This is the exact
-        gap Zapier fills. The work that is too manual for a person to keep
-        doing and too small to staff an engineer on.
+        Notabene built its first real ops bench this year, with Alice
+        Nawfal's RevOps hire in the mix. Companies hire in that order once
+        the work has already outrun the people doing it. The Flow launch,
+        a network that just passed $2 trillion in volume, and a tightening
+        Travel Rule picture keep adding workflows. That is where Zapier
+        tends to help: the repetitive work nobody wants to keep doing by
+        hand, and nobody is going to put an engineer on.
       </>
     ),
   },
@@ -53,11 +51,11 @@ const BUYER_BLOCKS: { label: string; body: React.ReactNode }[] = [
     label: "The next 5",
     body: (
       <>
-        Notabene is the template. The shape generalizes. Distributed
-        RegTech and fintech-infrastructure companies, 100 to 500 people,
-        recently funded, hiring their first RevOps or business-operations
-        layer, heavy SaaS sprawl, engineers reserved for the core
-        product. By the end of week 2 I would have a 20-account list.
+        Notabene is not a one-off. A lot of companies look like this.
+        Distributed RegTech and fintech-infrastructure firms, 100 to 500
+        people, recently funded, building out their first ops or RevOps
+        function, a sprawling SaaS stack, and engineers they need on the
+        core product. By the end of week 2 I would have a 20-account list.
         Starting candidates: Chainalysis, TRM Labs, Sardine, Alloy,
         Persona.
       </>

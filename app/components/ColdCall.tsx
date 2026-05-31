@@ -31,18 +31,19 @@ const STAGES = [
     body: (
       <>
         <p>
-          You spent the last year standing up a RevOps and
-          business-operations function. Companies that scale ops that
-          fast usually watch the new hires spend their first months
-          wiring tools together by hand instead of building process.
+          You built out your ops and RevOps team this past year. When
+          that happens fast, the new people usually burn their first
+          months connecting tools by hand instead of building real
+          process.
         </p>
         <p className="mt-5">
           Pulling an engineer off the transaction network to fix it is a
           non-starter when you are regulated. So it stays manual, and the
-          ops team inherits it.
+          ops team gets stuck with it.
         </p>
         <p className="mt-5">
-          That is the work Zapier automates, no engineer required.
+          That is the kind of work Zapier takes off their plate, without
+          pulling anyone off engineering.
         </p>
       </>
     ),

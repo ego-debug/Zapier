@@ -47,13 +47,12 @@ export default function NotabeneAccount() {
               Travel Rule plus stablecoin payments, used by 280+
               regulated businesses like Luno, Bitso, and Crypto.com,
               across a network that crossed $2 trillion in volume in
-              January 2026. They are Series B-backed by DRW VC. Over the
-              past year they stood up an operations and revenue-operations
-              layer under their COO. A first RevOps hire, a
-              business-operations lead, a Chief of Staff to the COO. A new
-              payments product and a tightening compliance picture keep
-              adding workflows, while the engineers stay on the core
-              transaction network.
+              January 2026. They are Series B-backed by DRW VC. In the last
+              year they hired into operations for the first time. A RevOps
+              lead, a business-operations lead, a chief of staff reporting
+              to the COO. A new payments product and a tightening
+              compliance picture keep adding workflows, and engineering is
+              busy with the network itself.
             </motion.p>
           </motion.div>
 
@@ -98,18 +97,14 @@ export default function NotabeneAccount() {
                 The story right now
               </div>
               <p className="text-xl md:text-2xl text-ink/90 leading-[1.5] max-w-3xl">
-                Over the past year Notabene stood up an operations layer
-                under COO Alice Nawfal. A search for its first dedicated
-                RevOps hire, a Chief of Staff to the COO, a
-                business-operations lead. Two things matter for an
-                outbound rep. First, that new ops function inherits the
-                manual work of connecting a sprawling SaaS stack across a
-                fully distributed team. Second, Flow, their stablecoin
-                payments line live since September 2025, and a tightening
-                Travel Rule compliance picture keep adding onboarding and
-                compliance-data work, while the engineers stay on the core
-                network. Both are automation problems, not engineering
-                problems.
+                Here is what stood out to me. The new ops team inherits
+                the manual work of connecting a sprawling SaaS stack
+                across a distributed company. And that work keeps growing.
+                Flow, their stablecoin payments line live since September
+                2025, and a tightening Travel Rule picture mean more
+                onboarding and more compliance data to move between more
+                tools. None of it is engineering work. It is the manual
+                connecting that piles up when a company grows this fast.
               </p>
             </div>
           </div>
@@ -134,16 +129,14 @@ export default function NotabeneAccount() {
               They sell regulated crypto firms a system a regulator can
               trust. That same standard applies inward. They cannot run
               ungoverned automations their own compliance team cannot
-              see. Their growth means more headcount, more tools, more
-              handoffs between them. The engineers are heads-down on the
-              transaction network, not internal plumbing. My read: the ops
-              function they just built should not spend its quarters
-              wiring tools together by hand. Zapier connects the stack
-              without pulling an
-              engineer, and the Enterprise tier keeps every automation
-              behind SSO, admin approval, and an audit log. That is the
-              only version of automation a compliance-first company can
-              actually run.
+              see. As they grow, they add headcount and tools, and the
+              handoffs between those tools add up. The way I see it, the
+              ops team they just built should not spend its first year
+              wiring those tools together by hand. Zapier connects the
+              stack without an engineer, and the Enterprise tier keeps
+              every automation behind SSO, admin approval, and an audit
+              log. For a company that sells auditability, that governance
+              is the part that makes internal automation safe to turn on.
             </p>
           </div>
         </motion.div>

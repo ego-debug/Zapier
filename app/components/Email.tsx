@@ -12,15 +12,15 @@ const BLOCKS: Block[] = [
   { kind: "p", text: "Hi Alice," },
   {
     kind: "p",
-    text: "Saw that you spent the last year standing up RevOps and business operations on your team, your first RevOps hire included. Building that whole ops layer tells me the processes are scaling faster than the team can build them. Crossing two trillion on the network this year will do that.",
+    text: "Saw you built out RevOps and business operations this past year, your first RevOps hire in the mix. You usually only build that out once the work is already ahead of the team, and a $2 trillion year on the network does that.",
   },
   {
     kind: "p",
-    text: "Flow has been live since September, and the compliance picture keeps tightening as more regulated customers come on. More onboarding, more data moving between more tools, and the engineers are heads-down on the transaction network.",
+    text: "Flow has been live since September, and the compliance picture keeps tightening as more regulated customers come on. That means more onboarding and more data moving between more tools, all of it landing outside engineering.",
   },
   {
     kind: "p",
-    text: "Companies in that spot usually find the same thing. A new RevOps hire loses a real chunk of the week to moving data between tools by hand. Zapier connects 9,000+ apps so that work gets automated instead, no engineer required. Remote, also fully distributed, did exactly that. They avoided $500K in hiring costs and automated 11 million tasks in 2024. And because you are regulated, the Enterprise tier keeps every automation behind SSO, admin approval, and an audit log your compliance team can hand to a regulator. SOC 2 Type II underneath.",
+    text: "Companies in that spot usually find the same thing. A new RevOps hire loses a real chunk of the week to moving data between tools by hand. Zapier connects 9,000+ apps, so that work runs on its own instead of eating someone's week. Remote, also fully distributed, did exactly that and avoided $500K in hiring costs while automating 11 million tasks in 2024. And since you are regulated, the Enterprise tier keeps every automation behind SSO, admin approval, and an audit log your compliance team can hand a regulator, on a SOC 2 Type II platform.",
   },
   {
     kind: "p",
@@ -114,7 +114,7 @@ export default function Email() {
                   label="Subject"
                   value={
                     <span className="font-medium">
-                      The glue work your new ops layer inherits
+                      Where your ops team loses the week
                     </span>
                   }
                 />

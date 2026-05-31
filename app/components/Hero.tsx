@@ -46,7 +46,7 @@ export default function Hero() {
         >
           <p className="text-base md:text-lg leading-relaxed text-ink/75 mx-auto px-2">
             A working document on Notabene, the account I'd lead with on
-            day one and how I'd start the conversation.
+            day one and how I'd open it.
           </p>
         </div>
       </div>

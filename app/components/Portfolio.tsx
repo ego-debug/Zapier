@@ -149,11 +149,11 @@ export default function Portfolio() {
           </div>
           <div className="lg:col-span-10">
             <p className="font-pixel font-bold text-2xl md:text-3xl lg:text-4xl leading-[1.25] tracking-[0.02em] uppercase text-ink max-w-4xl">
-              Three products solo. Each one meant wiring a dozen SaaS
-              tools together by hand. Payments, email, signups, Slack
-              alerts. That is the same manual glue work piling up on
-              Notabene's ops team right now. Zapier is the product that
-              removes it. Now I want to be the one selling the fix.
+              Three products, built on my own. Every one ran on a dozen
+              SaaS tools I had to connect myself. That is the same manual
+              work landing on Notabene's ops team now, and Zapier is what
+              removes it. I have built that problem by hand. Now I want to
+              sell the thing that fixes it.
             </p>
           </div>
         </motion.div>

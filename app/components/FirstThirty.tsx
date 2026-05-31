@@ -10,7 +10,7 @@ const PRIORITIES = [
   },
   {
     num: "02",
-    body: "Shadow the top 3 SDRs on the team. Borrow their objection handling, their sequence cadence, their account research, word-for-word until I have my own version.",
+    body: "Shadow the top 3 SDRs on the team. Copy their objection handling, their cadence, how they research an account, word for word until I have my own.",
   },
   {
     num: "03",
@@ -18,7 +18,7 @@ const PRIORITIES = [
   },
   {
     num: "04",
-    body: "Find the 2 or 3 reps and managers I'll learn the most from long term. Earn 15 minutes of coffee or shadow time with each. Map the 12-month line to the AE seat.",
+    body: "Find the 2 or 3 reps and managers I'll learn the most from long term. Earn 15 minutes of coffee or shadow time with each. Get a clear 12-month path to an AE role.",
   },
 ];
 

@@ -43,25 +43,23 @@ export default function WhyMe() {
                 myself. Payments to email, signups to the database,
                 alerts into Slack. I know what it feels like when the
                 glue work between tools eats the day and there is no
-                engineer to hand it to. That is the seat your customer
-                sits in.
+                engineer to hand it to. That is exactly the spot your
+                customer is in.
               </p>
             </Block>
 
             <Block num="03" title="Why Zapier">
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
                 Zapier is the SDR role I want. Inbound and outbound from
-                day one. I want to earn the seat, not assume it. I built
-                three products solo and spent too many hours being the
-                glue between tools by hand. Zapier is the product I kept
-                wishing I had. Notabene is what that pain looks like
-                inside a real account. A company that built an ops layer
-                faster than its processes, with engineers it cannot
-                spare. I have not had that conversation with their ops
-                team yet. But I have lived the builder side of the exact
-                problem that ops team is inheriting.
-                I want to earn this role and build a career here. I'm
-                coachable, I take feedback, and I show up.
+                day one. I built three products on my own, and Zapier is
+                the product I kept wishing I had while I did. Notabene is
+                what that pain looks like inside a real account. A company
+                whose ops grew faster than the people to run it, with
+                engineers it cannot spare. I have not had that
+                conversation with their ops team yet. But I have lived the
+                builder side of the exact problem that team is inheriting.
+                I want to earn this role and build a career here. I take
+                feedback and apply it, and I show up every day.
               </p>
             </Block>
           </motion.article>
