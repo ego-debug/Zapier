@@ -12,7 +12,7 @@ const BLOCKS: Block[] = [
   { kind: "p", text: "Hi Alice," },
   {
     kind: "p",
-    text: "Saw you built out RevOps and business operations this past year, your first RevOps hire in the mix. You usually only build that out once the work is already ahead of the team, and a $2 trillion year on the network does that.",
+    text: "Saw you built out RevOps and business operations this past year, your first RevOps hire in the mix. You usually only build that out once the work is already ahead of the team, and crossing $2 trillion on the network does that.",
   },
   {
     kind: "p",

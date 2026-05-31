@@ -42,12 +42,11 @@ export default function NotabeneAccount() {
               variants={reveal}
               className="text-xl md:text-[1.4rem] leading-[1.55] text-ink/85"
             >
-              Notabene is a roughly 119-person, fully distributed RegTech
-              building the compliance and payments network for crypto.
-              Travel Rule plus stablecoin payments, used by 280+
-              regulated businesses like Luno, Bitso, and Crypto.com,
-              across a network that crossed $2 trillion in volume in
-              January 2026. They are Series B-backed by DRW VC. In the last
+              Notabene is a fully distributed RegTech building the
+              compliance and payments network for crypto. Travel Rule
+              plus stablecoin payments, used by 280+ customers like Luno,
+              Bitso, and Crypto.com, across a network that crossed $2
+              trillion in volume in January 2026. They are Series B-backed by DRW VC. In the last
               year they hired into operations for the first time. A RevOps
               lead, a business-operations lead, a chief of staff reporting
               to the COO. A new payments product and a tightening
@@ -65,11 +64,11 @@ export default function NotabeneAccount() {
             className="lg:col-span-4 lg:col-start-9 lg:border-l lg:border-ink/15 lg:pl-8 space-y-8"
           >
             <FactRow label="Stage" value="Series B. $14.5M, DRW VC (Nov 2024)" />
-            <FactRow label="HQ" value="New York, NY. Distributed, 13+ countries" />
+            <FactRow label="HQ" value="New York. Fully distributed, 13+ countries" />
             <FactRow label="CEO" value="Pelle Braendgaard (Co-Founder)" />
-            <FactRow label="Scale" value="~119 employees, fully distributed" />
-            <FactRow label="Customers" value="280+ regulated firms (Luno, Bitso)" />
-            <FactRow label="Network" value="$2T+ processed, crossed Jan 2026" />
+            <FactRow label="Network" value="2,000+ institutions, 100+ jurisdictions" />
+            <FactRow label="Customers" value="280+ customers (Luno, Bitso)" />
+            <FactRow label="Volume" value="$2T+ total, $1T+ annually" />
           </motion.aside>
         </div>
 

@@ -96,7 +96,7 @@ export default function ZapierFit() {
                   <span className="text-ink/45 ml-2">+</span>
                 </>
               }
-              label="280+ regulated businesses now run compliance on Notabene. That growth lands on a lean, fully distributed ops team."
+              label="280+ companies now run compliance on Notabene. That growth lands on a lean, fully distributed ops team."
             />
           </ScaleIn>
           <ScaleIn delay={0.1}>
