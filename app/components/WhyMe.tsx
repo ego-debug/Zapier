@@ -52,14 +52,11 @@ export default function WhyMe() {
               <p className="text-lg md:text-xl leading-[1.7] text-ink/85">
                 Zapier is the SDR role I want. Inbound and outbound from
                 day one. I built three products on my own, and Zapier is
-                the product I kept wishing I had while I did. Notabene is
-                what that pain looks like inside a real account. A company
-                whose ops grew faster than the people to run it, with
-                engineers it cannot spare. I have not had that
-                conversation with their ops team yet. But I have lived the
-                builder side of the exact problem that team is inheriting.
-                I want to earn this role and build a career here. I take
-                feedback and apply it, and I show up every day.
+                the product I kept wishing I had while I did. I have not
+                had that conversation with Notabene's ops team yet, but I
+                have lived the builder side of the exact problem they are
+                inheriting. I want to earn this role and build a career
+                here. I take feedback, and I show up.
               </p>
             </Block>
           </motion.article>

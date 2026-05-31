@@ -14,12 +14,12 @@ const STAGES = [
     body: (
       <>
         <p>
-          Hi Alice, congrats on crossing two trillion on the network.
-          This is Jovan from Zapier.
+          Hi Alice, this is Jovan with Zapier. Saw Notabene crossed two
+          trillion on the network back in January.
         </p>
         <p className="mt-5">
-          This is a cold call. Want to give me 30 seconds, or should I
-          let you go?
+          This is a cold call, so I will be quick. Can I borrow 30
+          seconds, or did I catch you at a bad time?
         </p>
       </>
     ),
@@ -31,19 +31,20 @@ const STAGES = [
     body: (
       <>
         <p>
-          You built out your ops and RevOps team this past year. When
-          that happens fast, the new people usually burn their first
-          months connecting tools by hand instead of building real
+          You stood up your first ops and RevOps function this past year.
+          When that happens, the new people usually lose their first
+          months wiring tools together by hand instead of building real
           process.
         </p>
         <p className="mt-5">
-          Pulling an engineer off the transaction network to fix it is a
-          non-starter when you are regulated. So it stays manual, and the
-          ops team gets stuck with it.
+          And you cannot pull an engineer off the transaction network to
+          fix internal plumbing when you are regulated. So it stays
+          manual.
         </p>
         <p className="mt-5">
-          That is the kind of work Zapier takes off their plate, without
-          pulling anyone off engineering.
+          That is the work Zapier takes off the ops team, no engineer
+          needed. On the regulated side, every automation stays behind
+          approval and an audit log.
         </p>
       </>
     ),
@@ -54,7 +55,7 @@ const STAGES = [
     duration: "≈ 4 sec",
     body: (
       <p className="font-pixel font-bold text-3xl md:text-5xl leading-[1.1] tracking-[0.02em] uppercase">
-        Where are the manual handoffs between your tools happening today?
+        Where does most of that manual handoff happen for your team today?
       </p>
     ),
   },

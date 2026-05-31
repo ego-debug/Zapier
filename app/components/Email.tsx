@@ -12,19 +12,23 @@ const BLOCKS: Block[] = [
   { kind: "p", text: "Hi Alice," },
   {
     kind: "p",
-    text: "Saw you built out RevOps and business operations this past year, your first RevOps hire in the mix. You usually only build that out once the work is already ahead of the team, and crossing $2 trillion on the network does that.",
+    text: "You stood up Notabene's first ops and RevOps function this past year, first RevOps hire included. That usually happens once the work is already ahead of the team, and crossing $2 trillion on the network tends to do that.",
   },
   {
     kind: "p",
-    text: "Flow has been live since September, and the compliance picture keeps tightening as more regulated customers come on. That means more onboarding and more data moving between more tools, all of it landing outside engineering.",
+    text: "More regulated customers onboarding, Flow live since September, the compliance picture tightening. That is a lot more data moving between a lot more tools, and all of it lands on ops, not engineering.",
   },
   {
     kind: "p",
-    text: "Companies in that spot usually find the same thing. A new RevOps hire loses a real chunk of the week to moving data between tools by hand. Zapier connects 9,000+ apps, so that work runs on its own instead of eating someone's week. Remote, also fully distributed, did exactly that and avoided $500K in hiring costs while automating 11 million tasks in 2024. And since you are regulated, the Enterprise tier keeps every automation behind SSO, admin approval, and an audit log your compliance team can hand a regulator, on a SOC 2 Type II platform.",
+    text: "Companies in that spot usually find the same thing. A new RevOps hire loses a real chunk of every week to moving data between apps by hand. Zapier connects that work across 9,000+ apps so it runs on its own. Remote, also fully distributed, did this and avoided $500K in hiring costs while automating 11 million tasks in 2024.",
   },
   {
     kind: "p",
-    text: "Worth 15 minutes next week to map where your manual handoffs are today against what we would automate for your ops team?",
+    text: "Since you are regulated, the Enterprise tier keeps every automation behind SSO, approval before a Zap goes live, and an audit log, on SOC 2 Type II.",
+  },
+  {
+    kind: "p",
+    text: "Worth 15 minutes next week to find where your ops team loses the most time today?",
   },
   { kind: "sig", text: "Jovan Marrero, Zapier" },
 ];
@@ -114,7 +118,7 @@ export default function Email() {
                   label="Subject"
                   value={
                     <span className="font-medium">
-                      Where your ops team loses the week
+                      your new RevOps team and the manual stuff
                     </span>
                   }
                 />

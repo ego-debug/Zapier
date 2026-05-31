@@ -23,13 +23,12 @@ const BUYER_BLOCKS: { label: string; body: React.ReactNode }[] = [
       <>
         Notabene does not have to pull an engineer off the transaction
         network to wire their stack together. Zapier connects 9,000+
-        apps. CRM, support, billing, onboarding, Slack. The ops function
-        automates the manual handoffs instead of doing them by hand.
-        Lead routing, data sync, onboarding steps, compliance-data
-        movement, reporting. Because Notabene is a regulated RegTech, the
-        Enterprise tier is the part that matters. SAML SSO, app access
-        controls, approval before a Zap goes live, and an audit log on
-        every automation. SOC 2 Type II underneath.
+        apps, so the ops function automates the manual handoffs instead
+        of doing them by hand. Lead routing, data sync, onboarding,
+        compliance-data movement, reporting. And because Notabene is
+        regulated, the Enterprise tier governs all of it: SSO, app access
+        controls, approval before a Zap goes live, an audit log, SOC 2
+        Type II.
       </>
     ),
   },

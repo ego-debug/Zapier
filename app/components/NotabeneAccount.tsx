@@ -44,14 +44,12 @@ export default function NotabeneAccount() {
             >
               Notabene is a fully distributed RegTech building the
               compliance and payments network for crypto. Travel Rule
-              plus stablecoin payments, used by 280+ customers like Luno,
-              Bitso, and Crypto.com, across a network that crossed $2
-              trillion in volume in January 2026. They are Series B-backed by DRW VC. In the last
-              year they hired into operations for the first time. A RevOps
-              lead, a business-operations lead, a chief of staff reporting
-              to the COO. A new payments product and a tightening
-              compliance picture keep adding workflows, and engineering is
-              busy with the network itself.
+              plus stablecoin payments for regulated firms like Luno,
+              Bitso, and Crypto.com. In the last year they hired into
+              operations for the first time. A RevOps lead, a
+              business-operations lead, a chief of staff to the COO. A new
+              payments product and tightening compliance keep adding
+              workflows, and engineering stays on the network itself.
             </motion.p>
           </motion.div>
 
@@ -98,12 +96,11 @@ export default function NotabeneAccount() {
               <p className="text-xl md:text-2xl text-ink/90 leading-[1.5] max-w-3xl">
                 Here is what stood out to me. The new ops team inherits
                 the manual work of connecting a sprawling SaaS stack
-                across a distributed company. And that work keeps growing.
-                Flow, their stablecoin payments line live since September
-                2025, and a tightening Travel Rule picture mean more
-                onboarding and more compliance data to move between more
-                tools. None of it is engineering work. It is the manual
-                connecting that piles up when a company grows this fast.
+                across a distributed company, and that work keeps growing.
+                Flow, live since September 2025, and a tightening Travel
+                Rule picture mean more onboarding and more compliance data
+                to move between more tools. None of it is engineering
+                work.
               </p>
             </div>
           </div>
@@ -126,16 +123,13 @@ export default function NotabeneAccount() {
             <p className="text-xl md:text-2xl leading-[1.55] text-ink/90 max-w-4xl">
               Notabene's whole product is compliance and auditability.
               They sell regulated crypto firms a system a regulator can
-              trust. That same standard applies inward. They cannot run
-              ungoverned automations their own compliance team cannot
-              see. As they grow, they add headcount and tools, and the
-              handoffs between those tools add up. The way I see it, the
-              ops team they just built should not spend its first year
-              wiring those tools together by hand. Zapier connects the
-              stack without an engineer, and the Enterprise tier keeps
-              every automation behind SSO, admin approval, and an audit
-              log. For a company that sells auditability, that governance
-              is the part that makes internal automation safe to turn on.
+              trust, so the same bar applies to their own tools. They
+              cannot run automations their compliance team cannot see.
+              Zapier connects the stack without an engineer, and the
+              Enterprise tier keeps every automation behind SSO, admin
+              approval, and an audit log. For a company that sells
+              auditability, that governance is what makes internal
+              automation safe to turn on.
             </p>
           </div>
         </motion.div>
